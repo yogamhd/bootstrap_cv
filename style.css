@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#card {
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: right;
+    margin-right: 15px;
+}
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.box-profile {
+    width: 300px;
+    height: 450px;
+    border-style: solid;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#img-profile {
+    border-radius: 50%;
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;    
+}
+
+.aboutme {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+}
